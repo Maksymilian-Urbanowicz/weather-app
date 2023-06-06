@@ -3,7 +3,7 @@ let WeatherAPIConf = {
   API_FORMAT: "",
   API_CITYQ: "?q=",
   API_CITY: "",
-  API_KEY: "&appid=40d8a3d28933fed8ca1119a3b10c7e04",
+  API_KEY: "&appid=YOUR_API_KEY",
   API_UNITS: "",
 };
 
