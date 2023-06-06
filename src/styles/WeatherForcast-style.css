@@ -1,0 +1,239 @@
+.App-panel {
+  margin-top: 20px;
+}
+
+.App-panel-buttons {
+  width: 90vw;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+button {
+  cursor: pointer;
+}
+
+.App-panel3 {
+  width: 50vw;
+}
+.App-panel4 {
+  display: block;
+  padding:20px;
+}
+
+.App-panel2::after {
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+.App-panel2 {
+  margin-top: 0;
+  display: flex;
+  font-size: 30px;
+  vertical-align: center;
+  justify-content: space-around;
+}
+
+.App-panel-group {
+  margin-top: 50px;
+  /* border:1px solid black ; */
+}
+
+.App-gorup-key {
+  background-color: #072132;
+}
+
+.date {
+  display: flex;
+  font-size: 30px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.content h2 {
+  font-size: 80px;
+}
+
+.hours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours h3 {
+  transform: translate(0, 25%);
+}
+
+.weatherData,
+.weatherData2,
+.weatherData3 {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 130px;
+}
+.weatherData2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.weatherData3 {
+  width: 100vw;
+}
+
+.icon img {
+  margin-left: 50px;
+  height: 20vh;
+}
+
+.icon2 {
+  display: flex;
+  margin-top: 5px;
+  width: 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon2 img {
+  position: relative;
+  margin-left: 50px;
+  height: 10vh;
+}
+
+.App-panel3 {
+  font-size: 30px;
+  padding: 2vh 10vh;
+}
+
+.sticky {
+  /*data się przykelja*/
+}
+
+#weatherDetails,
+#weatherDetails2 {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: -5vh;
+  margin-bottom: 30px;
+}
+
+#weatherDetails2 {
+  width: 50vw;
+  margin-left: 50%;
+  margin-top: 30px;
+  transform: translateX(-50%);
+}
+.setBox {
+  height: 40vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 0;
+  margin-bottom: 30px;
+  border: 5px solid #072132;
+}
+
+@media (max-width: 1100px) {
+  #weatherDetails2 {
+  width: 100vw;
+
+  margin-left: 0%;
+  margin-top: 30px;
+  transform: translateX(0%);
+  }
+  .date {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .App-panel,
+  .App-panel3 {
+    width: 100vw;
+    border-radius: 0px;
+  }
+
+  .hours > h3 {
+    font-size: 50;
+    margin-top: 0px;
+  }
+
+  .weatherData,
+  .weatherData2 {
+    font-size: 80px;
+  }
+  .icon img {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .App-panel,
+  .App-panel2,
+  .App-panel3 {
+    padding: 0;
+    border-radius: 0;
+    width: 100vw;
+  }
+  .weatherData,
+  .weatherData2 {
+    font-size: 75px;
+  }
+  .icon img {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .date {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .App-nav-element {
+    padding: 10px;
+  }
+
+  .weatherData{
+    font-size: 65px;
+  }
+  .weatherData2 {
+    font-size: 40px;
+  }
+
+  .icon img {
+    height: 10vh;
+  }
+  .icon2 img {
+    height: 5vh;
+    margin-right: 20px;
+  }
+  .App-header {
+    height: 8vh;
+  }
+
+  .hours h3 {
+    transform: translate(0, 50%);
+  }
+
+  input {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-size: calc(15px + 1vmin);
+  }
+}

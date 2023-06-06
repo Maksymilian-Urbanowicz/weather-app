@@ -1,0 +1,24 @@
+section{
+  background-image: url("../img/background/main-bg.jpg");
+}
+
+.sun-bg{
+background-image: url("../img/background/sun-bg.jpg");
+}
+
+.snow-bg{
+  background-image: url("../img/background/snow-bg.jpg");
+}
+
+.clouds-bg{
+  background-image: url("../img/background/clouds-bg.jpg");
+}
+
+.rain-bg{
+  background-image: url("../img/background/rain-bg.jpg");
+}
+
+.thstorm-bg{
+  background-image: url("../img/background/thstorm-bg.jpg");
+}
+
